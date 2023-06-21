@@ -1,0 +1,146 @@
+ [
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 1,
+        "fields": {
+            "name": "Pending",
+            "description": "The event is pending and has not yet started.",
+            "color": ""
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 2,
+        "fields": {
+            "name": "In Progress",
+            "description": "The event is currently in progress.",
+            "color": "Green"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 3,
+        "fields": {
+            "name": "Completed",
+            "description": "The event has been completed successfully.",
+            "color": "Blue"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 4,
+        "fields": {
+            "name": "Failed",
+            "description": "The event has failed or encountered an error.",
+            "color": "Red"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 5,
+        "fields": {
+            "name": "Cancelled",
+            "description": "The event has been cancelled or aborted.",
+            "color": "Gray"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 6,
+        "fields": {
+            "name": "On Hold",
+            "description": "The event is on hold and temporarily paused.",
+            "color": "Yellow"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 7,
+        "fields": {
+            "name": "Scheduled",
+            "description": "The event is scheduled to occur at a future date/time.",
+            "color": ""
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 8,
+        "fields": {
+            "name": "Delayed",
+            "description": "The event has been delayed from its original schedule.",
+            "color": "Orange"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 9,
+        "fields": {
+            "name": "In Transit",
+            "description": "The event is in transit or en route to a location.",
+            "color": "Purple"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 10,
+        "fields": {
+            "name": "Arrived",
+            "description": "The event has arrived at a specific location.",
+            "color": "Green"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 11,
+        "fields": {
+            "name": "Inspected",
+            "description": "The event has been inspected or checked.",
+            "color": "Blue"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 12,
+        "fields": {
+            "name": "Verified",
+            "description": "The event has been verified or validated.",
+            "color": "Green"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 13,
+        "fields": {
+            "name": "Accepted",
+            "description": "The event or item has been accepted.",
+            "color": "Green"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 14,
+        "fields": {
+            "name": "Rejected",
+            "description": "The event or item has been rejected.",
+            "color": "Red"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 15,
+        "fields": {
+            "name": "Pause",
+            "description": "The event Stopped status waiting on something else.",
+            "color": "Yellow"
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventStatus",
+        "pk": 16,
+        "fields": {
+            "name": "Exception",
+            "description": "There was an exception or issue during the delivery process.",
+            "color": "Red"
+        }
+    }
+]

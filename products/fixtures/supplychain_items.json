@@ -1,0 +1,422 @@
+[
+    {
+        "model": "products.supplychainitem",
+        "pk": 1,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Mix colors",
+            "created_at": "2023-06-20T22:28:57.956Z",
+            "created_by": 2,
+            "dimensions": "45 by 50 15kv Generators",
+            "item_description": "Generators for XB electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "Honda",
+            "parent_item": null,
+            "price": "1000.00",
+            "quantity": 80,
+            "status": "Ready for shipping",
+            "supplier": "Honda",
+            "updated_at": "2023-06-20T22:44:55.682Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 2,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Green",
+            "created_at": "2023-06-20T21:19:14.745Z",
+            "created_by": null,
+            "dimensions": "90Kg Bags",
+            "item_description": "Grain Green grams for export",
+            "item_name": "Green grams",
+            "manufacturer": "Farm Produce",
+            "parent_item": null,
+            "price": "7300.00",
+            "quantity": 100,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer 2",
+            "updated_at": "2023-06-20T21:19:14.746Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 3,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Mix colors",
+            "created_at": "2023-06-20T22:25:06.995Z",
+            "created_by": null,
+            "dimensions": "big Bags",
+            "item_description": "Irish Potatoes market supply for Thika open air Market",
+            "item_name": "Irish Potatoes",
+            "manufacturer": "Farm Produce",
+            "parent_item": null,
+            "price": "1000.00",
+            "quantity": 50,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer 456",
+            "updated_at": "2023-06-20T22:25:06.996Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 4,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Green",
+            "created_at": "2023-06-20T21:42:35.331Z",
+            "created_by": null,
+            "dimensions": "90Kg Bags",
+            "item_description": "Grain eans (Wairimu) Order by Kenya sec school",
+            "item_name": "Beans (Wairimu)",
+            "manufacturer": "Farm Produce",
+            "parent_item": null,
+            "price": "7200.00",
+            "quantity": 100,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer 23",
+            "updated_at": "2023-06-20T21:42:35.331Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 5,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Green",
+            "created_at": "2023-06-20T21:48:09.685Z",
+            "created_by": null,
+            "dimensions": "90Kg Bags",
+            "item_description": "Grain eans (Rosecoco) Order by Kenya sec school",
+            "item_name": "Beans (Rosecoco)",
+            "manufacturer": "Farm Produce",
+            "parent_item": null,
+            "price": "7100.00",
+            "quantity": 100,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer 25",
+            "updated_at": "2023-06-20T21:48:09.685Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 6,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "white",
+            "created_at": "2023-06-20T21:02:52.122Z",
+            "created_by": 1,
+            "dimensions": "90Kg Bags",
+            "item_description": "Grain Maize for export",
+            "item_name": "Maize",
+            "manufacturer": "Farming",
+            "parent_item": null,
+            "price": "10000.00",
+            "quantity": 100,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer",
+            "updated_at": "2023-06-20T22:47:32.544Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 7,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Green",
+            "created_at": "2023-06-20T22:22:52.515Z",
+            "created_by": null,
+            "dimensions": "big Bags",
+            "item_description": "Sweet Potatoes market supply for Thika open air Market",
+            "item_name": "Sweet Potatoes",
+            "manufacturer": "Farm Produce",
+            "parent_item": null,
+            "price": "1000.00",
+            "quantity": 50,
+            "status": "Ready for shipping",
+            "supplier": "Kenyan Farmer 456",
+            "updated_at": "2023-06-20T22:22:52.515Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 8,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Blue",
+            "created_at": "2023-06-21T10:15:47.111Z",
+            "created_by": null,
+            "dimensions": "60 by 70 12kv Generators",
+            "item_description": "Generators for YZ electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "Yamaha",
+            "parent_item": null,
+            "price": "1500.00",
+            "quantity": 40,
+            "status": "Ready for shipping",
+            "supplier": "Yamaha",
+            "updated_at": "2023-06-21T10:15:47.111Z",
+            "weight": "80000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 9,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Red",
+            "created_at": "2023-06-21T11:25:18.325Z",
+            "created_by": null,
+            "dimensions": "35 by 40 10kv Generators",
+            "item_description": "Generators for AC electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "AC",
+            "parent_item": null,
+            "price": "1200.00",
+            "quantity": 60,
+            "status": "Ready for shipping",
+            "supplier": "AC",
+            "updated_at": "2023-06-21T11:25:18.325Z",
+            "weight": "70000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 10,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Yellow",
+            "created_at": "2023-06-21T12:40:59.532Z",
+            "created_by": null,
+            "dimensions": "80 by 90 18kv Generators",
+            "item_description": "Generators for BD electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "BD",
+            "parent_item": null,
+            "price": "1800.00",
+            "quantity": 30,
+            "status": "Ready for shipping",
+            "supplier": "BD",
+            "updated_at": "2023-06-21T12:40:59.532Z",
+            "weight": "95000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 11,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Black",
+            "created_at": "2023-06-21T13:55:37.773Z",
+            "created_by": null,
+            "dimensions": "50 by 60 14kv Generators",
+            "item_description": "Generators for EF electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "EF",
+            "parent_item": null,
+            "price": "1300.00",
+            "quantity": 70,
+            "status": "Ready for shipping",
+            "supplier": "EF",
+            "updated_at": "2023-06-21T13:55:37.773Z",
+            "weight": "85000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 12,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Silver",
+            "created_at": "2023-06-21T15:10:20.985Z",
+            "created_by": null,
+            "dimensions": "70 by 80 16kv Generators",
+            "item_description": "Generators for GH electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "GH",
+            "parent_item": null,
+            "price": "1400.00",
+            "quantity": 50,
+            "status": "Ready for shipping",
+            "supplier": "GH",
+            "updated_at": "2023-06-21T15:10:20.985Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 13,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Gold",
+            "created_at": "2023-06-21T16:25:03.198Z",
+            "created_by": null,
+            "dimensions": "75 by 85 17kv Generators",
+            "item_description": "Generators for IJ electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "IJ",
+            "parent_item": null,
+            "price": "1500.00",
+            "quantity": 30,
+            "status": "Ready for shipping",
+            "supplier": "IJ",
+            "updated_at": "2023-06-21T16:25:03.198Z",
+            "weight": "95000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 14,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Bronze",
+            "created_at": "2023-06-21T17:40:46.401Z",
+            "created_by": null,
+            "dimensions": "55 by 65 15kv Generators",
+            "item_description": "Generators for KL electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "KL",
+            "parent_item": null,
+            "price": "1600.00",
+            "quantity": 70,
+            "status": "Ready for shipping",
+            "supplier": "KL",
+            "updated_at": "2023-06-21T17:40:46.401Z",
+            "weight": "85000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 15,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Copper",
+            "created_at": "2023-06-21T18:55:29.604Z",
+            "created_by": null,
+            "dimensions": "65 by 75 16kv Generators",
+            "item_description": "Generators for MN electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "MN",
+            "parent_item": null,
+            "price": "1700.00",
+            "quantity": 50,
+            "status": "Ready for shipping",
+            "supplier": "MN",
+            "updated_at": "2023-06-21T18:55:29.604Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 16,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Steel",
+            "created_at": "2023-06-21T20:10:12.817Z",
+            "created_by": null,
+            "dimensions": "60 by 70 14kv Generators",
+            "item_description": "Generators for OP electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "OP",
+            "parent_item": null,
+            "price": "1800.00",
+            "quantity": 30,
+            "status": "Ready for shipping",
+            "supplier": "OP",
+            "updated_at": "2023-06-21T20:10:12.817Z",
+            "weight": "95000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 17,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Platinum",
+            "created_at": "2023-06-21T21:24:56.020Z",
+            "created_by": null,
+            "dimensions": "50 by 60 12kv Generators",
+            "item_description": "Generators for QR electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "QR",
+            "parent_item": null,
+            "price": "1900.00",
+            "quantity": 60,
+            "status": "Ready for shipping",
+            "supplier": "QR",
+            "updated_at": "2023-06-21T21:24:56.020Z",
+            "weight": "70000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 18,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Titanium",
+            "created_at": "2023-06-21T22:39:39.223Z",
+            "created_by": null,
+            "dimensions": "70 by 80 18kv Generators",
+            "item_description": "Generators for ST electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "ST",
+            "parent_item": null,
+            "price": "2000.00",
+            "quantity": 40,
+            "status": "Ready for shipping",
+            "supplier": "ST",
+            "updated_at": "2023-06-21T22:39:39.223Z",
+            "weight": "80000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 19,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Rose Gold",
+            "created_at": "2023-06-21T23:54:22.426Z",
+            "created_by": null,
+            "dimensions": "75 by 85 20kv Generators",
+            "item_description": "Generators for UV electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "UV",
+            "parent_item": null,
+            "price": "2100.00",
+            "quantity": 30,
+            "status": "Ready for shipping",
+            "supplier": "UV",
+            "updated_at": "2023-06-21T23:54:22.426Z",
+            "weight": "90000.00"
+        }
+    },
+    {
+        "model": "products.supplychainitem",
+        "pk": 20,
+        "fields": {
+            "batch_number": "12244343",
+            "color": "Emerald",
+            "created_at": "2023-06-22T01:09:05.629Z",
+            "created_by": null,
+            "dimensions": "55 by 65 16kv Generators",
+            "item_description": "Generators for WX electricals warehouse",
+            "item_name": "Generators",
+            "manufacturer": "WX",
+            "parent_item": null,
+            "price": "2200.00",
+            "quantity": 70,
+            "status": "Ready for shipping",
+            "supplier": "WX",
+            "updated_at": "2023-06-22T01:09:05.629Z",
+            "weight": "85000.00"
+        }
+    }
+]

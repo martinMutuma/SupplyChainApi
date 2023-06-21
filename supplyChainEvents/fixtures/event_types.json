@@ -1,0 +1,269 @@
+[
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 1,
+        "fields": {
+            "name": "Delivery",
+            "description": "The event represents the delivery of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 2,
+        "fields": {
+            "name": "Storage",
+            "description": "The event represents the storage of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 3,
+        "fields": {
+            "name": "Manufacturing",
+            "description": "The event represents the manufacturing process of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 4,
+        "fields": {
+            "name": "Quality Check",
+            "description": "The event represents the quality check of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 5,
+        "fields": {
+            "name": "Packaging",
+            "description": "The event represents the packaging of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 6,
+        "fields": {
+            "name": "Shipping",
+            "description": "The event represents the shipping of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 7,
+        "fields": {
+            "name": "Customs Clearance",
+            "description": "The event represents the customs clearance process."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 8,
+        "fields": {
+            "name": "Border Crossing",
+            "description": "The event represents crossing the border between countries."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 9,
+        "fields": {
+            "name": "Customs Inspection",
+            "description": "The event represents the customs inspection process."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 10,
+        "fields": {
+            "name": "Documentation Verification",
+            "description": "The event represents the verification of shipping documents."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 11,
+        "fields": {
+            "name": "Transportation",
+            "description": "The event represents the transportation of the item."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 12,
+        "fields": {
+            "name": "Customs Declaration",
+            "description": "The event represents the customs declaration process."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 13,
+        "fields": {
+            "name": "Order Placement",
+            "description": "The event represents the placement of an order."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 14,
+        "fields": {
+            "name": "Order Processing",
+            "description": "The event represents the processing of an order."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 15,
+        "fields": {
+            "name": "Order Fulfillment",
+            "description": "The event represents the fulfillment of an order."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 16,
+        "fields": {
+            "name": "Inventory Replenishment",
+            "description": "The event represents the replenishment of inventory."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 17,
+        "fields": {
+            "name": "Return Processing",
+            "description": "The event represents the processing of returns."
+        }
+    },
+    {
+        "model": "supplyChainEvents.EventType",
+        "pk": 18,
+        "fields": {
+            "name": "Product Recall",
+            "description": "The event represents a product recall process."
+        }
+    },
+    
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 19,
+            "fields": {
+                "name": "Demand Forecasting",
+                "description": "The event represents the forecasting of product demand."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 20,
+            "fields": {
+                "name": "Raw Material Sourcing",
+                "description": "The event represents the sourcing of raw materials for production."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 21,
+            "fields": {
+                "name": "Quality Assurance",
+                "description": "The event represents the assurance of product quality."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 22,
+            "fields": {
+                "name": "Supplier Evaluation",
+                "description": "The event represents the evaluation of suppliers for procurement."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 23,
+            "fields": {
+                "name": "Demand Planning",
+                "description": "The event represents the planning of product demand."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 24,
+            "fields": {
+                "name": "Vendor Selection",
+                "description": "The event represents the selection of vendors for procurement."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 25,
+            "fields": {
+                "name": "Production Scheduling",
+                "description": "The event represents the scheduling of production activities."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 26,
+            "fields": {
+                "name": "Packing and Labeling",
+                "description": "The event represents the packing and labeling of products."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 27,
+            "fields": {
+                "name": "Order Tracking",
+                "description": "The event represents the tracking of order status and location."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 28,
+            "fields": {
+                "name": "Reverse Logistics",
+                "description": "The event represents the management of product returns and reverse flow of materials."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 29,
+            "fields": {
+                "name": "Warehousing",
+                "description": "The event represents the storage and management of goods in warehouses."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 30,
+            "fields": {
+                "name": "Last-Mile Delivery",
+                "description": "The event represents the final delivery of goods to the end customer."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 31,
+            "fields": {
+                "name": "Customs Documentation",
+                "description": "The event represents the preparation and submission of customs documentation."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 32,
+            "fields": {
+                "name": "Invoice and Payment",
+                "description": "The event represents the generation of invoices and processing of payments."
+            }
+        },
+        {
+            "model": "supplyChainEvents.EventType",
+            "pk": 33,
+            "fields": {
+                "name": "Risk Management",
+                "description": "The event represents the identification and mitigation of supply chain risks."
+            }
+        }
+    
+    
+]
