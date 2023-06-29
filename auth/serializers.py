@@ -13,9 +13,8 @@ class TokenObtainPairResponseSerializer(TokenObtainPairSerializer):
     email = serializers.EmailField(read_only=True)
     groups = serializers.ListField(read_only=True)
 
-
     class Meta:
-        exclude = ('password' )
+        exclude = ('password')
 
     def validate(self, attrs):
         data = super().validate(attrs)
@@ -32,13 +31,13 @@ class TokenObtainPairResponseSerializer(TokenObtainPairSerializer):
 
     def update(self, instance, validated_data):
         raise NotImplementedError()
-    
+
 
 class UserRegisterSerializer(serializers.Serializer):
     email = serializers.EmailField(
-            required=True,
-            validators=[UniqueValidator(queryset=User.objects.all())]
-            )
+        required=True,
+        validators=[UniqueValidator(queryset=User.objects.all())]
+    )
 
     password = serializers.CharField(write_only=True, required=True)
     password2 = serializers.CharField(write_only=True, required=True)
@@ -48,15 +47,16 @@ class UserRegisterSerializer(serializers.Serializer):
         model = User
         fields = ('username', 'password', 'password2', 'email')
         extra_kwargs = {
-            
+
         }
 
     def validate(self, attrs):
         if attrs['password'] != attrs['password2']:
-            raise serializers.ValidationError({"password": "Password fields didn't match."})
+            raise serializers.ValidationError(
+                {"password": "Password fields didn't match."})
 
         return attrs
-    
+
     def create(self, validated_data):
         user = User.objects.create(
             email=validated_data['email'],
@@ -66,11 +66,13 @@ class UserRegisterSerializer(serializers.Serializer):
         user.save()
 
         return user
-    
-class UserSerializer(serializers.Serializer):
-        email = serializers.EmailField()
-        username = serializers.CharField(max_length=100)
-        id = serializers.IntegerField()
 
-    
 
+class UserSerializer(serializers.ModelSerializer):
+    email = serializers.EmailField()
+    username = serializers.CharField(max_length=100)
+    id = serializers.IntegerField()
+
+    class Meta:
+        model = User
+        fields = ['username', 'id', 'email']

@@ -3,6 +3,7 @@ from rest_framework import viewsets
 from .models import SupplyChainItem
 from .serializers import SupplyChainItemSerializer
 
+
 class SupplyChainItemViewSet(viewsets.ModelViewSet):
     queryset = SupplyChainItem.objects.select_related('created_by').all()
     serializer_class = SupplyChainItemSerializer
@@ -10,4 +11,4 @@ class SupplyChainItemViewSet(viewsets.ModelViewSet):
 
 
 def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user )
+    serializer.save(created_by=self.request.user)
