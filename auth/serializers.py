@@ -68,6 +68,32 @@ class UserRegisterSerializer(serializers.Serializer):
         return user
 
 
+class UserPasswordSerializer(serializers.Serializer):
+    password = serializers.CharField(write_only=True, required=True)
+    password2 = serializers.CharField(write_only=True, required=True)
+
+    class Meta:
+        model = User
+        fields = ('password', 'password2')
+        extra_kwargs = {
+
+        }
+
+    def validate(self, attrs):
+        if attrs['password'] != attrs['password2']:
+            raise serializers.ValidationError(
+                {"password": "Password fields didn't match."})
+
+        return attrs
+
+    def create(self, validated_data):
+        currentUser = self.context['request'].user
+        user = User.objects.get(pk=currentUser.id)
+        user.set_password(validated_data['password'])
+        user.save()
+        return user
+
+
 class UserSerializer(serializers.ModelSerializer):
     email = serializers.EmailField()
     username = serializers.CharField(max_length=100)

@@ -9,15 +9,17 @@ from rest_framework_simplejwt.views import (
 from rest_framework.permissions import AllowAny
 from auth.serializers import TokenObtainPairResponseSerializer
 from django.contrib.auth.models import User
-from .serializers import (UserRegisterSerializer, UserSerializer)
+from .serializers import (UserRegisterSerializer,
+                          UserSerializer, UserPasswordSerializer)
 from rest_framework import generics
-from rest_framework.permissions import IsAuthenticated
+from rest_framework import permissions
 from rest_framework.response import Response
 
 
 class SCTokenObtainPairView(TokenObtainPairView):
     permission_classes = (AllowAny,)
     serializer_class = TokenObtainPairResponseSerializer
+
     @swagger_auto_schema(
         responses={
             status.HTTP_200_OK: TokenObtainPairResponseSerializer,
@@ -25,7 +27,6 @@ class SCTokenObtainPairView(TokenObtainPairView):
     )
     def post(self, request, *args, **kwargs):
         return super().post(request=request, *args, **kwargs)
-    
 
 
 class UserRegisterView(generics.CreateAPIView):
@@ -33,19 +34,25 @@ class UserRegisterView(generics.CreateAPIView):
     permission_classes = (AllowAny,)
     serializer_class = UserRegisterSerializer
 
+
+class UserChangePasswordView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    permission_classes = (permissions.IsAuthenticated,)
+    serializer_class = UserPasswordSerializer
+
+    # def get_queryset(self):
+    #     return User.objects.filter(pk=self.request.user.id)
+
+
 class UserListView(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = (AllowAny,)
 
     def list(self, request):
         queryset = self.get_queryset()
         serializer = UserSerializer(instance=queryset, many=True)
         return Response(serializer.data)
-
-
-
-
 
 
 class TokenRefreshResponseSerializer(serializers.Serializer):

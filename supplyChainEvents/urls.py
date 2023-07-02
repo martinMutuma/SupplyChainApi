@@ -14,7 +14,7 @@ event_status_router.register(prefix='event/status', viewset=EventStatusViewSet)
 
 item_event_router = routers.DefaultRouter()
 item_event_router.register(
-    prefix='item/events/(?P<itemId>.+)?$', viewset=SupplyChainItemEventViewSet)
+    prefix='item/events', viewset=SupplyChainItemEventViewSet)
 
 urlpatterns = [
     path('supplychain/', include(

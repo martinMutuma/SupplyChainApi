@@ -8,16 +8,16 @@ from django.conf import settings
 from django.contrib.auth.models import User
 
 
-class EventStatusSerializer(SupplyChainBaseSerializer):
+class EventStatusSerializer(serializers.ModelSerializer):
     class Meta:
         model = EventStatus
-        fields = '__all__'
+        exclude = ['created_at', 'created_by', 'updated_at']
 
 
-class EventTypeSerializer(SupplyChainBaseSerializer):
+class EventTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = EventType
-        fields = '__all__'
+        exclude = ['created_at', 'created_by', 'updated_at']
 
 
 class SupplyChainItemEventSerializer(SupplyChainBaseSerializer):
